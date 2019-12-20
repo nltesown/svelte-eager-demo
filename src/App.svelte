@@ -5,16 +5,22 @@
 
 <style>
   :global(body) {
-    padding: 0;
+    margin: 0;
   }
   .main {
-    height: 200vh;
+    height: 300vh;
   }
 
   .debug {
     position: fixed;
     bottom: 0;
     left: 0;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #823439;
+    color: #fff;
+    text-align: center;
   }
 
   nav {
@@ -26,10 +32,8 @@
   }
 </style>
 
-<!--
-  <svelte:window bind:scrollY={y} />
-  <div class="debug">{y}</div>
--->
+<svelte:window bind:scrollY={y} />
+<div class="debug">{y}</div>
 
 <div class="main">
 

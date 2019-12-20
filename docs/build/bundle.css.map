@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "..\\..\\src\\App.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\r\n  let y;\r\n  import Eager from \"./Eager.svelte\";\r\n</script>\r\n\r\n<style>\r\n  :global(body) {\r\n    margin: 0;\r\n  }\r\n  .main {\r\n    height: 300vh;\r\n  }\r\n\r\n  .debug {\r\n    position: fixed;\r\n    bottom: 0;\r\n    left: 0;\r\n    width: 80px;\r\n    height: 30px;\r\n    line-height: 30px;\r\n    background-color: #823439;\r\n    color: #fff;\r\n    text-align: center;\r\n  }\r\n\r\n  nav {\r\n    display: block;\r\n    padding: 24px 8px;\r\n    background-color: #323439;\r\n    color: #fff;\r\n    font-size: 2.5rem;\r\n  }\r\n</style>\r\n\r\n<svelte:window bind:scrollY={y} />\r\n<div class=\"debug\">{y}</div>\r\n\r\n<div class=\"main\">\r\n\r\n  <Eager side=\"top\">\r\n    <nav>Hello there! I'm Eager Igor</nav>\r\n  </Eager>\r\n\r\n</div>\r\n"
+  ],
+  "names": [],
+  "mappings": "AAMU,IAAI,AAAE,CAAC,AACb,MAAM,CAAE,CAAC,AACX,CAAC,AACD,KAAK,cAAC,CAAC,AACL,MAAM,CAAE,KAAK,AACf,CAAC,AAED,MAAM,cAAC,CAAC,AACN,QAAQ,CAAE,KAAK,CACf,MAAM,CAAE,CAAC,CACT,IAAI,CAAE,CAAC,CACP,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,WAAW,CAAE,IAAI,CACjB,gBAAgB,CAAE,OAAO,CACzB,KAAK,CAAE,IAAI,CACX,UAAU,CAAE,MAAM,AACpB,CAAC,AAED,GAAG,cAAC,CAAC,AACH,OAAO,CAAE,KAAK,CACd,OAAO,CAAE,IAAI,CAAC,GAAG,CACjB,gBAAgB,CAAE,OAAO,CACzB,KAAK,CAAE,IAAI,CACX,SAAS,CAAE,MAAM,AACnB,CAAC"
+}

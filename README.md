@@ -7,3 +7,5 @@ If the document is scrollable, then, as the document is being scrolled down, the
 Reference the `Eager.svelte` component, and enclose the desired HTML in `<Eager></Eager>`.
 
 This is an early version.
+
+See it in action here: http://nltesown.github.io/svelte-eager
